@@ -18,7 +18,8 @@
     "compose:up": "docker-compose up -d",
     "compose:down": "docker-compose down --volumes",
     "prisma:pull": "prisma db pull",
-    "prisma:push": " prisma db push"
+    "prisma:push": " prisma db push",
+    "ssl:generate": "./scripts/generate-ssl.sh"
   },
   "dependencies": {
     "@amplication/opentelemetry-nestjs": "^4.5.0",
